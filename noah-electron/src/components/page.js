@@ -1,16 +1,21 @@
 import React, { useState } from 'react';
 import Navbar from './nav-bar';
+import TutorialCard from './tutorialCard';
 
 const Page = () => {
     // Give Page component access to the selected tab, so that it can display cPanel and WordPress tutorials accordingly
     const [selectedTab, setSelectedTab] = useState(null);
 
+    // Tutorial content for cPanel and WordPress
+    const tutorialContent = selectedTab === 'cPanel' ? <TutorialCard color='#ff7a4161' label="cPanel" /> : selectedTab === 'WordPress' ? <TutorialCard color='#278ab764' label="WordPress" /> : null;
+
+    // Include a navbar and tutorials for cPanel and WordPress
     return (
         <div>
             <Navbar onTabChange={setSelectedTab} />
             <div>
                 {/* Content based on selectedTab */}
-                {selectedTab ? `Content for ${selectedTab}` : <span className="text-[#434141] ">No tutorial category selected! Choose an option above.</span>}
+                {selectedTab ? tutorialContent : <span className="text-[#434141]">No tutorial category selected! Choose an option above.</span>}
             </div>
         </div>
     );

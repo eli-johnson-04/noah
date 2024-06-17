@@ -25,6 +25,9 @@ const TutorialCard = ({ color, label, sections }) => {
                             <button style={{ position: 'relative', backgroundColor: color }} className="ml-4 p-1 font-kanit text-3xl font-semibold text-black rounded border-solid border-2 border-black shadow-md hover:shadow-lg hover:-translate-y-1 ease-in-out" onClick={() => setIsModalOpen(false)}>X</button>
                         </div>
                         <div className="font-kanit">{sections}</div>
+                        <div>
+                            <button style={{ backgroundColor: color }} className="mt-4 p-2 font-kanit text-m text-black rounded border-solid border-2 border-black shadow-md hover:shadow-lg hover:-translate-y-1 ease-in-out" onClick={() => setIsModalOpen(false)}>Close Tutorial</button>
+                        </div>
                     </div>
                 </div>
             </Modal>

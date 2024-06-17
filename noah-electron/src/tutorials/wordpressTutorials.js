@@ -1,17 +1,17 @@
 const wordpressTutorials = [
-    { label: 'WordPress Tutorial 1',
+    { label: 'Add Media Gallery',
         sections: [
             {
                 type: 'header',
-                content: 'Introduction to WordPress'
+                content: 'How to Add Another Gallery to the Media Page'
             },
             {
                 type: 'text',
-                content: 'WordPress is a powerful content management system...'
+                content: 'Log in to the WordPress dashboard, and navigate to "Pages" on the left sidebar. Hover over it, and click "All Pages".'
             },
             {
-                type: 'subheading',
-                content: 'Getting Started'
+                type: 'image',
+                src: '/images/dashboard-all-pages.png'
             },
             {
                 type: 'text',

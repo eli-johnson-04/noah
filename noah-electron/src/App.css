@@ -5,7 +5,7 @@
   display: flex; /* Flexbox layout */
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -41,4 +41,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Define some css behaviors for the tutorial cards */
+.tutorialCard {
+  width: 296px;
+  height: 107px;
+  border-radius: 15pt;
+  border: 2px solid black;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition for transform */
+}
+
+.tutorialCard:hover {
+  transform: scale(1.05); /* Slightly larger on hover */
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.4), 0 0 0 3px black;
 }

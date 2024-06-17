@@ -11,7 +11,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'text',
-                content: 'Click the three descending lines in the top left, next to the arrows, to show the webpage tree. Your screen should look similar to this:'
+                content: 'Click the three descending lines in the top left, next to the arrows, to show the webpage tree. The webpage tree is a hieracrchical structure that shows how elements are nested and organized. If an element is underneath another AND slightly to the right, it is owned by the one above it. Your screen should look similar to this:'
             },
             {
                 type: 'image',

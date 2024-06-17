@@ -22,12 +22,23 @@ const TutorialCard = ({ color, label }) => {
 
             {/* Define the modal that will display tutorial information */}
             <Modal
-                isOpen={isModalOpen}
-                onRequestClose={() => setIsModalOpen(false)}
-                style={{ overlay: {}, content: {} }} // Add custom styles here
+            isOpen={isModalOpen}
+            onRequestClose={() => setIsModalOpen(false)}
+            className="fixed inset-0 flex items-center justify-center p-4"
+            style={{ overlay: { backgroundColor: 'rgba(0, 0, 0, 0.5)' } }}
             >
-                <div>Modal Content Here</div>
-                <button onClick={() => setIsModalOpen(false)}>Close</button>
+                <div
+                className="bg-gray-300 overflow-auto rounded-lg shadow-lg"
+                style={{ width: '1502px', height: '847px', borderRadius: '13pt', backgroundColor: '#d9d9d9', borderColor: 'black', borderWidth: '5px', borderStyle: 'solid'}}
+                >
+                    <div>Modal Content Here</div>
+                        <button
+                        className="p-2 text-white bg-blue-500 hover:bg-blue-700 rounded"
+                        onClick={() => setIsModalOpen(false)}
+                        >
+                            Close
+                        </button>
+                </div>
             </Modal>
         </div>
     );

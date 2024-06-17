@@ -22,13 +22,13 @@ const TutorialContainer = ({ category }) => {
                 sections={tutorial.sections.map((section, sectionIndex) => {
                     switch (section.type) {
                         case 'header':
-                            return <h2 className="font-kanit text-2xl my-2" key={sectionIndex}>{section.content}</h2>;
+                            return <h2 className="font-kanit text-2xl my-2 mt-6" key={sectionIndex}>{section.content}</h2>;
                         case 'subheading':
-                            return <h3 className="font-kanit text-xl my-1" key={sectionIndex}>{section.content}</h3>;
+                            return <h3 className="font-kanit text-xl my-1 mt-6" key={sectionIndex}>{section.content}</h3>;
                         case 'text':
                             return <p className="font-kanit text-base font-normal my-1 leading-relaxed" key={sectionIndex}>{section.content}</p>;
                         case 'image':
-                            return <img className="font-kanit my-2 max-w-full h-auto" key={sectionIndex} src={section.src} alt={section.alt} />;
+                            return <img className="font-kanit my-2 max-w-full h-auto border-solid border-2 border-black rounded shadow-sm " key={sectionIndex} src={section.src} alt={section.alt} />;
                         default:
                             return null;
                     }})}/>

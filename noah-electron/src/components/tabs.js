@@ -10,8 +10,8 @@ const Tab = ({ label, isActive, onClick, color }) => (
 
     // Button with conditional styling based on whether it is active
     <button
-    className={`px-4 py-2 font-semibold ${isActive ? `bg-[#ff6c2c] text-black` : 'bg-gray-200 text-black'} rounded-lg ${!isActive ? 'shadow-md' : ''} font-kanit transition-colors duration- ease-in-out`}
-    style={isActive ? { ...innerShadowStyle, backgroundColor: color, transition: 'background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out' } : { transition: 'background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out' }}
+    className={`px-4 py-2 font-semibold ${isActive ? `bg-[#ff6c2c] text-black` : 'bg-gray-200 text-black'} rounded-lg ${!isActive ? 'shadow-md hover:shadow-lg hover:-translate-y-1' : ''} font-kanit transition-all duration-200 ease-in-out`}
+    style={isActive ? { ...innerShadowStyle, backgroundColor: color, transition: 'background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out' } : { transition: 'background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out, transform 0.2s ease-in-out' }}
     onClick={onClick}
     >
         {label}

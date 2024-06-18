@@ -5,8 +5,10 @@ const path = require('node:path')
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
+    title: "Noah - Ark Foundation",
     width: 1024,
     height: 768,
+    autoHideMenuBar: true,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     }
@@ -14,6 +16,11 @@ function createWindow () {
 
   // and load the index.html of the app.
   mainWindow.loadURL('http://localhost:3000')
+
+  // Prevents the page title from updating to something other than the set title
+  mainWindow.on('page-title-updated', function(e) {
+    e.preventDefault()
+  });
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()

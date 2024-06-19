@@ -1,13 +1,13 @@
 {
-  "name": "noah-electron",
-  "version": "0.1.0",
+  "name": "Noah",
+  "author": "Ark Foundation Intern Team",
+  "version": "0.1.3",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "concurrently": "^8.2.2",
-    "electron": "^30.0.8",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-modal": "^3.16.1",
@@ -21,6 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "package": "electron-builder build --win -c.extraMetadata.main=main.js --publish never",
+    "publish": "electron-builder build --win -c.extraMetadata.main=main.js --publish always",
     "electron-react": "concurrently \"npm start\" \"wait-on http://localhost:3000 && electron .\""
   },
   "eslintConfig": {
@@ -43,7 +45,32 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
+    "electron-builder": "^24.13.3",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4"
+  },
+  "proxy": "http://localhost:3000",
+  "build": {
+    "extraMetadata": {
+    "main": "dist/main.js"
+    },
+  "extends": null,
+  "files": [
+    "dist/**/*",
+    "package.json",
+    "public/images/**/*",
+    "src/**/*",
+    "main.js"
+    ],
+    "win": {
+      "icon": "build/icon.ico"
+    },
+    "publish": {
+    "provider": "github",
+    "owner": "eli-johnson-04",
+    "repo": "noah",
+    "private": true,
+    "token": "${env.GITHUB_ACCESS_TOKEN}"
+    }
   }
 }

@@ -10,12 +10,14 @@ function createWindow () {
     height: 768,
     autoHideMenuBar: true,
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js')
+      nodeIntegration: false,
+      contextIsolation: true,
     }
   })
 
-  // and load the index.html of the app.
-  mainWindow.loadURL('http://localhost:3000')
+  // Load the React app based on the environment
+  const startUrl = 'http://localhost:3000' || `file://${path.join(__dirname, '../build/index.html')}`;
+  mainWindow.loadURL(startUrl);
 
   // Prevents the page title from updating to something other than the set title
   mainWindow.on('page-title-updated', function(e) {

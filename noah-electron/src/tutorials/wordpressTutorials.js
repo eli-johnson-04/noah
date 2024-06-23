@@ -7,7 +7,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'text',
-                content: 'Log in to the WordPress dashboard, and navigate to "Appearance" on the left sidebar. Hover over it, and click "Editor". This will open Gutenberg, the native WordPress editor. Once the editor shows up, click "Pages", then scroll down and click on "Media", then the pencil icon to the right of the name of the page.'
+                content: 'Log in to the WordPress dashboard, and navigate to "Appearance" on the left sidebar. Hover over it, and click "Editor". This will open Gutenberg, the native WordPress page editor. Once the editor shows up, click "Pages", then scroll down and click on "Media", then the pencil icon to the right of the name of the page.'
             },
             {
                 type: 'subheading',
@@ -128,6 +128,138 @@ const wordpressTutorials = [
             {
                 type: 'text',
                 content: 'You have added a new media gallery, and updated the live page. Go to the top of the dashboard where it says "The Ark Foundation, Ghana", hover, and click "Visit Site". Once it loads, click "Media" from the homepage, and see your new changes, live and visible to the world!'
+            },
+        ]
+    },
+    { label: 'Add Donation Section to Media Gallery',
+        sections: [
+            {
+                type: 'header',
+                content: 'How to Add A Sub-Section to the Donations Gallery'
+            },
+            {
+                type: 'text',
+                content: 'Log in to the WordPress dashboard, and navigate to "Appearance" on the left sidebar. Hover over it, and click "Editor". This will open Gutenberg, the native WordPress page editor. Once the editor shows up, click "Pages", then scroll down and click on "Media", then the pencil icon to the right of the name of the page.'
+            },
+            {
+                type: 'subheading',
+                content: 'Webpage Tree'
+            },
+            {
+                type: 'text',
+                content: 'Click the three descending lines in the top left, next to the arrows, to show the webpage tree. The webpage tree is a hierarchical structure that shows how elements are nested and organized. If an element is underneath another AND slightly to the right, it is contained by the one above it. Duplicating something will make it show up beneath the original, and if a block has children, duplicating it will also duplicate its children. Your screen should look similar to this:'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/add-media-gallery/editor-media.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Adding a Donation Section from Pattern'
+            },
+            {
+                type: 'text',
+                content: 'Click the small arrow to the left of "Content" in the webpage tree, and then "Stack". You should now see all of the galleries on the page. In the image above, there should be three: "Poster Campaign", "School Sensitization Program", and "Donations". Click the small left arrow to the left of "Donations" in the webpage tree. If the page does not have sub-sections already, you should see "Donation Photos" as a child, and it should look like this:'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/add-donation-subsection/default-donations-section.png'
+            },
+            {
+                type: 'text',
+                content: 'This tutorial will use an empty "Donations" gallery, and show how to add a new subsection. Normally, you would decide where you want your new subsection, and you would choose from there. For this tutorial, we will demonstrate with an empty "Donations" section, save for a single separator: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/add-donation-subsection/empty-donation-section.png'
+            },
+            {
+                type: 'text',
+                content: 'The separator always stays on the bottom of the "Donations" gallery, so we will be using the "Add Before" feature. Right click the element you want to add before, and click "Add Before". For this tutorial, it will be the Separator: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/add-donation-subsection/add-before.png'
+            },
+            {
+                type: 'text',
+                content: 'There should now be a "Paragraph" block before the Separator. Click the box where it says "Type / to choose a block", and type a forward slash, leave no space, then start typing "donation sub-gallery". Once it shows up in the options, click it:'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/add-donation-subsection/type-to-add-pattern.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Editing the Subsection'
+            },
+            {
+                type: 'text',
+                content: 'After clicking the pattern, it should show up on the screen, as well as in the webpage tree. It should already be highlighted in PURPLE on the page. Click the three dots on the right side of the small menu above it, then click "Detach". '
+            },
+            {
+                type: 'text',
+                content: 'You should now be able to edit the name of the new subsection. Delete the sample name and type the new one. For this tutorial, we will call it "New Donor: June 23, 2024":'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/add-donation-subsection/new-donor-pattern.png'
+            },
+            {
+                type: 'text',
+                content: 'Look to the left at the webpage tree, and click the small arrow to the left of the new "Donation Section" element to view its children. Click the element called "Donation Photos", and you should see two options to "Upload" or use the "Media Library". For this tutorial, we will use the media library.'
+            },
+            {
+                type: 'text',
+                content: 'Click "Media Library", then click on the photos you want. We will select four photos for this tutorial:'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/add-donation-subsection/four-photos-selected.png'
+            },
+            {
+                type: 'text',
+                content: 'Click "Create a new gallery", then "Insert gallery". This will add the gallery images to the section, and they will also be visible in the webpage tree. Now, click "Donation Text" in the webpage tree, then click "[Donation Text Here]" on the page, delete the sample text, and type your preferred caption for the subsection. For this tutorial, we will write "We thank our newest Donor for their gracious contribution to The Ark.":'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/add-donation-subsection/new-caption.png'
+            },
+            {
+                type: 'text',
+                content: 'You are now finished editing the subsection! Click "Save" at the top right of the screen. Confirm the save if a pop-up shows up, and wait for the changes to save. It is safe to exit the page, but you can return to the dashboard by clicking The Ark logo in the top left of the screen once to return to Gutenberg, then again to return to the dashboard.'
+            },
+            {
+                type: 'subheading',
+                content: 'Previous Versions (If you do not need to reverse changes, skip this section)'
+            },
+            {
+                type: 'text',
+                content: 'You should now be at the dashboard. If not, view the instructions in the previous step. In the event you make a mistake and save it, do not worry. Click on "Pages" on the left sidebar, and scroll down to the Media page. Hover over it and click "Edit". Your screen should look like this: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/add-media-gallery/edit-media-not-gutenberg.png'
+            },
+            {
+                type: 'text',
+                content: 'Navigate to the right side of the screen where it says "Publish" with a button "Preview Changes", and click "Browse" next to where it says "Revisions". Your screen should look like this: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/add-media-gallery/revisions.png'
+            },
+            {
+                type: 'text',
+                content: 'Clicking "Previous" will revert the website to your LAST SAVE POINT. If you saved three times, and you want to discard all of those changes, press "Previous" three times. Again, do this only if you need to reverse changes. Click "Previous" on the left side of the screen as many times as necessary, then "Restore This Revision" to revert the changes to a previous version.'
+            },
+            {
+                type: 'subheading',
+                content: 'Congratulations!'
+            },
+            {
+                type: 'text',
+                content: 'You have added a new donation subsection, and updated the live page. Go to the top of the dashboard where it says "The Ark Foundation, Ghana", hover, and click "Visit Site". Once it loads, click "Media" from the homepage, click the "Donations" section and see your new changes, live and visible to the world!'
             },
         ]
     },

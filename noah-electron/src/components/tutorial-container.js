@@ -28,7 +28,7 @@ const TutorialContainer = ({ category }) => {
                         case 'text':
                             return <p className="font-kanit text-base font-normal my-1 leading-relaxed" key={sectionIndex}>{section.content}</p>;
                         case 'image':
-                            return <img className="font-kanit my-2 max-w-full h-auto border-solid border-2 border-black rounded shadow-sm " key={sectionIndex} src={section.src} alt={section.alt} />;
+                            return <img className="mx-auto font-kanit my-2 max-w-full h-auto border-solid border-2 border-black rounded shadow-sm" key={sectionIndex} src={section.src} alt={section.alt} />;
                         default:
                             return null;
                     }})}/>

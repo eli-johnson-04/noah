@@ -188,7 +188,7 @@ const wordpressTutorials = [
         sections: [
             {
                 type: 'header',
-                content: 'How to Update Our Patrons Page'
+                content: 'How to Update Board of Directors Page'
             },
             {
                 type: 'text',
@@ -200,7 +200,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-our-patrons/2.all pages.png'
+                src: '/images/wordpress/update-board-of-directors/2.All Pages.png'
             },
             {
                 type: 'subheading',
@@ -212,11 +212,11 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-our-patrons/3.Edit page.png'
+                src: '/images/wordpress/update-board-of-directors/3.Edit page.png'
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-our-patrons/4.Edit firs block.png'
+                src: '/images/wordpress/update-board-of-directors/4.Edit first block.png'
             },
             {
                 type: 'subheading',
@@ -228,7 +228,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-our-patrons/5.Duplicate team member bio card.png'
+                src: '/images/wordpress/update-board-of-directors/5.Duplicate team member bio card.png'
             },
             {
                 type: 'subheading',
@@ -240,7 +240,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-our-patrons/6.Edit duplicted card.png'
+                src: '/images/wordpress/update-board-of-directors/6.Edit duplicated card.png'
             },
             {
                 type: 'subheading',
@@ -252,11 +252,11 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-our-patrons/7.Update image of duplicated card.png'
+                src: '/images/wordpress/update-board-of-directors/7.Update image of duplicated card.png'
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-our-patrons/8.Upload new image.png'
+                src: '/images/wordpress/update-board-of-directors/8.Upload new image.png'
             },
             {
                 type: 'subheading',
@@ -268,7 +268,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-our-patrons/8.apply classes to image.png'
+                src: '/images/wordpress/update-board-of-directors/10.Apply classes to image.png'
             },
             
         ]

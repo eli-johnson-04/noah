@@ -279,7 +279,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-our-patrons/1.all pages.png'
+                src: '/images/wordpress/update-our-patrons/1.all-pages.png'
             },
             {
                 type: 'subheading',
@@ -291,7 +291,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-our-patrons/2.clone bio card.png'
+                src: '/images/wordpress/update-our-patrons/2.clone-bio-card.png'
             },
             {
                 type: 'subheading',
@@ -303,7 +303,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-our-patrons/3.edit bio card.png'
+                src: '/images/wordpress/update-our-patrons/3.edit-bio-card.png'
             },
             {
                 type: 'subheading',
@@ -315,11 +315,11 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-our-patrons/4.edit image.png'
+                src: '/images/wordpress/update-our-patrons/4.edit-image.png'
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-our-patrons/5.upload new image.png'
+                src: '/images/wordpress/update-our-patrons/5.upload-new-image.png'
             },
             {
                 type: 'subheading',
@@ -327,11 +327,11 @@ const wordpressTutorials = [
             },
             {
                 type: 'text',
-                content: 'When you upload the new image, you will notice that the image will not fit perfectly into the bio card. To fix this, select the image you just added on the left sidebar and click on the pencil symbol that appears right above it. This will open a new page (see image below). On the new page look for the box titled Image CSS Class. On the box type "patron-img" and then click on update on the bottom right corner of the page. This completes the bio card editing'
+                content: 'When you upload the new image, you will notice that the image will not fit perfectly into the bio card. To fix this, select the image you just added on the left sidebar and click on the pencil symbol that appears right above it. This will open a new page (see image below). On the new page look for the box titled Image CSS Class. On the box type "patron-img" and then click on update on the bottom right corner of the page. This completes the bio card editing. Save the changes by clicking on the check symbol on the bottom left corner of the page.'
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-our-patrons/8.apply classes to image.png'
+                src: '/images/wordpress/update-our-patrons/8.apply-classes-to-image.png'
             },
             
         ]
@@ -352,7 +352,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-board-of-directors/2.All Pages.png'
+                src: '/images/wordpress/update-board-of-directors/all-pages.png'
             },
             {
                 type: 'subheading',
@@ -364,11 +364,11 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-board-of-directors/3.Edit page.png'
+                src: '/images/wordpress/update-board-of-directors/edit-page.png'
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-board-of-directors/4.Edit first block.png'
+                src: '/images/wordpress/update-board-of-directors/edit-first-block.png'
             },
             {
                 type: 'subheading',
@@ -380,7 +380,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-board-of-directors/5.Duplicate team member bio card.png'
+                src: '/images/wordpress/update-board-of-directors/duplicate-team-member-card.png'
             },
             {
                 type: 'subheading',
@@ -392,7 +392,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-board-of-directors/6.Edit duplicated card.png'
+                src: '/images/wordpress/update-board-of-directors/edit-duplicated-card.png'
             },
             {
                 type: 'subheading',
@@ -404,11 +404,11 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-board-of-directors/7.Update image of duplicated card.png'
+                src: '/images/wordpress/update-board-of-directors/update-image-of-duplicated-card.png'
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-board-of-directors/8.Upload new image.png'
+                src: '/images/wordpress/update-board-of-directors/upload-new-image.png'
             },
             {
                 type: 'subheading',
@@ -420,7 +420,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-board-of-directors/10.Apply classes to image.png'
+                src: '/images/wordpress/update-board-of-directors/apply-classes-to-image.png'
             },
             
         ]
@@ -441,7 +441,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-about-us/All Pages.png'
+                src: '/images/wordpress/update-about-us/all-pages.png'
             },
             {
                 type: 'subheading',
@@ -453,11 +453,11 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-about-us/1.Edit first block.png'
+                src: '/images/wordpress/update-about-us/edit-first-block.png'
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-about-us/2.Edit text.png'
+                src: '/images/wordpress/update-about-us/edit-text.png'
             },
             {
                 type: 'subheading',
@@ -469,7 +469,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-about-us/3.Edit existing card.png'
+                src: '/images/wordpress/update-about-us/edit-existing-card.png'
             },
             {
                 type: 'subheading',
@@ -481,11 +481,11 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-about-us/4.Add more cards.png'
+                src: '/images/wordpress/update-about-us/add-more-cards.png'
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-about-us/5.Add existing template.png'
+                src: '/images/wordpress/update-about-us/add-existing-template.png'
             },
             {
                 type: 'subheading',
@@ -497,7 +497,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-about-us/7.Resize added card.png'
+                src: '/images/wordpress/update-about-us/resize-added-card.png'
             },
             {
                 type: 'subheading',
@@ -509,23 +509,23 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-about-us/8.Add more cards on same row.png'
+                src: '/images/wordpress/update-about-us/add-more-cards-on-same-row.png'
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-about-us/9.Two column row.png'
+                src: '/images/wordpress/update-about-us/two-column-row.png'
             },
             {
                 type: 'text',
-                content: 'To esaily add a new card in the column you just added, initially right click on the existing card on the right and select copy on the meny that appears (see first image below). Now you right click on the mepty column on the right and selct paste (see second image bleow). After completing these steps, you can edit these cards by repeating the same steps you took at the beginning of this tutorial.'
+                content: 'To esaily add a new card in the column you just added, initially right click on the existing card on the right and select copy on the meny that appears (see first image below). Now you right click on the mepty column on the right and selct paste (see second image bleow). After completing these steps, you can edit these cards by repeating the same steps you took at the beginning of this tutorial. Save the changes by clicking on the check symbol on the bottom left corner of the page. '
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-about-us/10.Copy card on the left.png'
+                src: '/images/wordpress/update-about-us/copy-card-on-the-left.png'
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-about-us/11.Paste card to the right column.png'
+                src: '/images/wordpress/update-about-us/paste-card-to-the-right-column.png'
             },
             
         ]

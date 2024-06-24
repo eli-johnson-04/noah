@@ -416,11 +416,116 @@ const wordpressTutorials = [
             },
             {
                 type: 'text',
-                content: 'When you upload the new image, you will notice that the image will not fit perfectly into the bio card. To fix this, select the image you just added on the left sidebar and click on the pencil symbol that appears right above it. This will open a new page (see image below). On the new page look for the box titled Image CSS Class. On the box type "board-member-img " and then click on update on the bottom right corner of the page. This completes the bio card editing'
+                content: 'When you upload the new image, you will notice that the image will not fit perfectly into the bio card. To fix this, select the image you just added on the left sidebar and click on the pencil symbol that appears right above it. This will open a new page (see image below). On the new page look for the box titled Image CSS Class. On the box type "board-member-img " and then click on update on the bottom right corner of the page. This completes the bio card editing. Save the changes by clicking on the check symbol on the bottom left corner of the page.'
             },
             {
                 type: 'image',
                 src: '/images/wordpress/update-board-of-directors/10.Apply classes to image.png'
+            },
+            
+        ]
+    },
+    { label: 'Update About Us',
+        sections: [
+            {
+                type: 'header',
+                content: 'How to Update About Us Page'
+            },
+            {
+                type: 'text',
+                content: 'Log in to the WordPress dashboard, and click to "Pages" on the left sidebar.'
+            },
+            {
+                type: 'text',
+                content: 'Scroll until you find the given page, in this case About Us. Hover over it and click on "Edit with Visual Composer" that will appear right under it as you can see in the image below:'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-about-us/All Pages.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Editing the first block.'
+            },
+            {
+                type: 'text',
+                content: 'Once the page is opened, in order to edit the first block, hover over the section until a small green rectangle appears (See first image below). If you click the pencil icon, a sidebar will appear on the left that will allow you to edit the team members (See second image below). '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-about-us/1.Edit first block.png'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-about-us/2.Edit text.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Edit an existing card'
+            },
+            {
+                type: 'text',
+                content: 'In order to edit an existing card, hover over it until a small green rectangle appears. If you click the pencil icon, a sidebar will appear on the left that will allow you to edit the content of the card. See image below: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-about-us/3.Edit existing card.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Add more cards'
+            },
+            {
+                type: 'text',
+                content: 'To add more cards, click on the "+" icon on the top left corner of the page (see first image). On the sidebar that appears, select templates and then click on "Card" to add a new card on the bottom of the existing cards (see second image below)'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-about-us/4.Add more cards.png'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-about-us/5.Add existing template.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Resize the newly added card'
+            },
+            {
+                type: 'text',
+                content: 'After adding the new card to the page, you will se that it will initially occupy the entire row. If you do not want to add more cards in that row and you want to resize the newly added card, point your mouse on the left/right corner of the card and resize to your liking. See image below: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-about-us/7.Resize added card.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Add more cards on the same row'
+            },
+            {
+                type: 'text',
+                content: 'In order to add more cards to the same row you added the new card, hover over the newly added card until you see a blue rectangle on the top left corner of the card. Hover over the blue rectangle until you see a scroll down menu. On the menu, select Add Column (see first image below). This way you added a new column to the row (see second image below). You can add more columns based on your design needs.'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-about-us/8.Add more cards on same row.png'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-about-us/9.Two column row.png'
+            },
+            {
+                type: 'text',
+                content: 'To esaily add a new card in the column you just added, initially right click on the existing card on the right and select copy on the meny that appears (see first image below). Now you right click on the mepty column on the right and selct paste (see second image bleow). After completing these steps, you can edit these cards by repeating the same steps you took at the beginning of this tutorial.'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-about-us/10.Copy card on the left.png'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-about-us/11.Paste card to the right column.png'
             },
             
         ]

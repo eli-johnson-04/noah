@@ -264,7 +264,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'text',
-                content: 'When you upload the new image, you will notice that the image will not fit perfectly into the bio card. To fix this, select the image you just added on the left sidebar and click on the pencil symbol that appears right above it. This will open a new page (see image below). On the new page look for the box titled Image CSS Class. On the box type "board-member-img " and then click on update on the bottom right corner of the page. This completes the bio card editing'
+                content: 'When you upload the new image, you will notice that the image will not fit perfectly into the bio card. To fix this, select the image you just added on the left sidebar and click on the pencil symbol that appears right above it. This will open a new page (see image below). On the new page look for the box titled Image CSS Class. On the box type "board-member-img " and then click on update on the bottom right corner of the page. This completes the bio card editing. Save the changes by clicking on the check symbol on the bottom left corner of the page.'
             },
             {
                 type: 'image',
@@ -297,7 +297,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'text',
-                content: 'Once the page is opened, in order to edit the first block, hover over the section until a small green rectangle appears (See first image below). If you click the pencil icon, a sidebar will appear on the left taht will allow you to edit the team members (See second image below). '
+                content: 'Once the page is opened, in order to edit the first block, hover over the section until a small green rectangle appears (See first image below). If you click the pencil icon, a sidebar will appear on the left that will allow you to edit the team members (See second image below). '
             },
             {
                 type: 'image',
@@ -325,7 +325,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'text',
-                content: 'To add more cards, click on the "+" icon on the top left corner of the page (see first image). On the sidebar that appears, select templates and then click on "Card" to add a new card on the bottom of the existing card (see second image below)'
+                content: 'To add more cards, click on the "+" icon on the top left corner of the page (see first image). On the sidebar that appears, select templates and then click on "Card" to add a new card on the bottom of the existing cards (see second image below)'
             },
             {
                 type: 'image',
@@ -373,7 +373,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'image',
-                src: '/images/wordpress/update-board-of-directors/11.Paste card to the right column.png'
+                src: '/images/wordpress/update-about-us/11.Paste card to the right column.png'
             },
             
         ]

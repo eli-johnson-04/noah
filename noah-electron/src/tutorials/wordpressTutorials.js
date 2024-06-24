@@ -263,6 +263,168 @@ const wordpressTutorials = [
             },
         ]
     },
+    { label: 'Update Our Patrons',
+        sections: [
+            {
+                type: 'header',
+                content: 'How to Update Our Patrons Page'
+            },
+            {
+                type: 'text',
+                content: 'Log in to the WordPress dashboard, and click to "Pages" on the left sidebar.'
+            },
+            {
+                type: 'text',
+                content: 'Scroll until you find the given page, in this case Our Patrons. Hover over it and click on "Edit with Visual Composer" that will appear right under it as you can see in the image below:'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-patrons/1.all pages.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Cloning a bio card'
+            },
+            {
+                type: 'text',
+                content: 'Once the page is opened, in order to add another bio card to the page, hover over the last bio card until a small green rectangle appears. Click the third option from the left (clone). You will see that the last bio card will be duplicated. See image below for instruction: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-patrons/2.clone bio card.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Editing the newly added bio card'
+            },
+            {
+                type: 'text',
+                content: 'Hover over the newly added bio card (the last one) and click on pencil icon on the green rectangle box that appears. On the sidebar that apears in the left, start with editing the name of the new team member. Than edit the bio text. See image below: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-patrons/3.edit bio card.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Replacing the image of the newly added bio card'
+            },
+            {
+                type: 'text',
+                content: 'After you finish editing the bio text, click once the image on the left sidebar. Once the image is selected, click on the "Add Media" button on the top left corner of the sidebar (see first image below). A window will open that will allow you to select an image from the media gallery (see second image below). Select the image and click on the "Insert into page" button on the bottom right corner of the page.'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-patrons/4.edit image.png'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-patrons/5.upload new image.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Format the newly added image to fit into the bio card'
+            },
+            {
+                type: 'text',
+                content: 'When you upload the new image, you will notice that the image will not fit perfectly into the bio card. To fix this, select the image you just added on the left sidebar and click on the pencil symbol that appears right above it. This will open a new page (see image below). On the new page look for the box titled Image CSS Class. On the box type "patron-img" and then click on update on the bottom right corner of the page. This completes the bio card editing'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-patrons/8.apply classes to image.png'
+            },
+            
+        ]
+    },
+    { label: 'Update Board of Directors',
+        sections: [
+            {
+                type: 'header',
+                content: 'How to Update Board of Directors Page'
+            },
+            {
+                type: 'text',
+                content: 'Log in to the WordPress dashboard, and click to "Pages" on the left sidebar.'
+            },
+            {
+                type: 'text',
+                content: 'Scroll until you find the given page, in this case Board of Directors. Hover over it and click on "Edit with Visual Composer" that will appear right under it as you can see in the image below:'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-board-of-directors/2.All Pages.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Editing the first block (First, Second and Third Board Members).'
+            },
+            {
+                type: 'text',
+                content: 'Once the page is opened, in order to edit the First, Second and Third Board members, hover over the sectio until a small green rectangle appears (See first image below). If you click the pencil icon, a sidebar will appear on the left taht will allow you to edit the team members (See second image below). '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-board-of-directors/3.Edit page.png'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-board-of-directors/4.Edit first block.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Cloning a bio card'
+            },
+            {
+                type: 'text',
+                content: 'In order to add another bio card to the page, hover over the last bio card until a small green rectangle appears. Click the third option from the left (clone). You will see that the last bio card will be duplicated. See image below for instruction: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-board-of-directors/5.Duplicate team member bio card.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Editing the newly added bio card'
+            },
+            {
+                type: 'text',
+                content: 'Hover over the newly added bio card (the last one) and click on pencil icon on the green rectangle box that appears. On the sidebar that apears in the left, start with editing the name of the new team member. Than edit the bio. See image below'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-board-of-directors/6.Edit duplicated card.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Replacing the image of the newly added bio card'
+            },
+            {
+                type: 'text',
+                content: 'After you finish editing the bio text, click once the image on the left sidebar. Once the image is selected, click on the "Add Media" button on the top left corner of the sidebar (see first image below). A window will open that will allow you to select an image from the media gallery (see second image below). Select the image and click on the "Insert into page" button on the bottom right corner of the page.'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-board-of-directors/7.Update image of duplicated card.png'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-board-of-directors/8.Upload new image.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Format the newly added image to fit into the bio card'
+            },
+            {
+                type: 'text',
+                content: 'When you upload the new image, you will notice that the image will not fit perfectly into the bio card. To fix this, select the image you just added on the left sidebar and click on the pencil symbol that appears right above it. This will open a new page (see image below). On the new page look for the box titled Image CSS Class. On the box type "board-member-img " and then click on update on the bottom right corner of the page. This completes the bio card editing'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-board-of-directors/10.Apply classes to image.png'
+            },
+            
+        ]
+    },
 ];
 
 export default wordpressTutorials;

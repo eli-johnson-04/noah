@@ -1,7 +1,7 @@
 {
   "name": "Noah",
   "author": "Ark Foundation Intern Team",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

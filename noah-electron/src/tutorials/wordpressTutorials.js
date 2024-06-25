@@ -299,11 +299,15 @@ const wordpressTutorials = [
             },
             {
                 type: 'text',
-                content: 'Hover over the newly added bio card (the last one) and click on pencil icon on the green rectangle box that appears. On the sidebar that apears in the left, start with editing the name of the new team member. Than edit the bio text. See image below: '
+                content: 'Hover over the newly added bio card (the last one) and click on pencil icon on the green rectangle box that appears (see first image below). On the sidebar that apears in the left, start with editing the name of the new team member. Than edit the bio text (see second image below). '
             },
             {
                 type: 'image',
                 src: '/images/wordpress/update-our-patrons/3.edit-bio-card.png'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-patrons/edit-bio-text.png'
             },
             {
                 type: 'subheading',
@@ -333,6 +337,30 @@ const wordpressTutorials = [
                 type: 'image',
                 src: '/images/wordpress/update-our-patrons/8.apply-classes-to-image.png'
             },
+            {
+                type: 'subheading',
+                content: 'Previous Versions (If you do not need to reverse changes, skip this section)'
+            },
+            {
+                type: 'text',
+                content: 'In the event you make a mistake and save it, do not worry. Go back to the Dashboard, click on "Pages" on the left sidebar, and scroll down to the Our Patrons page. Hover over it and click "Edit". Your screen should look like this: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-patrons/edit-page-screen.png'
+            },
+            {
+                type: 'text',
+                content: 'Navigate to the right side of the screen where it says "Publish" with a button "Preview Changes", and click "Browse" next to where it says "Revisions". Your screen should look like this: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-patrons/revisions.png'
+            },
+            {
+                type: 'text',
+                content: 'Clicking "Previous" will revert the website to your LAST SAVE POINT. If you saved three times, and you want to discard all of those changes, press "Previous" three times. Again, do this only if you need to reverse changes. Click "Previous" on the left side of the screen as many times as necessary, then "Restore This Revision" to revert the changes to a previous version.'
+            },
             
         ]
     },
@@ -360,7 +388,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'text',
-                content: 'Once the page is opened, in order to edit the First, Second and Third Board members, hover over the sectio until a small green rectangle appears (See first image below). If you click the pencil icon, a sidebar will appear on the left taht will allow you to edit the team members (See second image below). '
+                content: 'Once the page is opened, in order to edit the First, Second and Third Board members, hover over the section until a small green rectangle appears (See first image below). If you click the pencil icon, a sidebar will appear on the left that will allow you to edit the team members (See second image below). '
             },
             {
                 type: 'image',
@@ -388,11 +416,15 @@ const wordpressTutorials = [
             },
             {
                 type: 'text',
-                content: 'Hover over the newly added bio card (the last one) and click on pencil icon on the green rectangle box that appears. On the sidebar that apears in the left, start with editing the name of the new team member. Than edit the bio. See image below'
+                content: 'Hover over the newly added bio card (the last one) and click on pencil icon on the green rectangle box that appears (see first image below). On the sidebar that apears in the left, start with editing the name of the new team member. Than edit the bio (see second image below)'
             },
             {
                 type: 'image',
                 src: '/images/wordpress/update-board-of-directors/edit-duplicated-card.png'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-board-of-directors/update-image-of-duplicated-card.png'
             },
             {
                 type: 'subheading',
@@ -422,7 +454,30 @@ const wordpressTutorials = [
                 type: 'image',
                 src: '/images/wordpress/update-board-of-directors/apply-classes-to-image.png'
             },
-            
+            {
+                type: 'subheading',
+                content: 'Previous Versions (If you do not need to reverse changes, skip this section)'
+            },
+            {
+                type: 'text',
+                content: 'In the event you make a mistake and save it, do not worry. Go back to the Dashboard, click on "Pages" on the left sidebar, and scroll down to the Board of Directors page. Hover over it and click "Edit". Your screen should look like this: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-patrons/edit-page-screen.png'
+            },
+            {
+                type: 'text',
+                content: 'Navigate to the right side of the screen where it says "Publish" with a button "Preview Changes", and click "Browse" next to where it says "Revisions". Your screen should look like this: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-patrons/revisions.png'
+            },
+            {
+                type: 'text',
+                content: 'Clicking "Previous" will revert the website to your LAST SAVE POINT. If you saved three times, and you want to discard all of those changes, press "Previous" three times. Again, do this only if you need to reverse changes. Click "Previous" on the left side of the screen as many times as necessary, then "Restore This Revision" to revert the changes to a previous version.'
+            },
         ]
     },
     { label: 'Update About Us',
@@ -449,7 +504,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'text',
-                content: 'Once the page is opened, in order to edit the first block, hover over the section until a small green rectangle appears (See first image below). If you click the pencil icon, a sidebar will appear on the left that will allow you to edit the team members (See second image below). '
+                content: 'Once the page is opened, in order to edit the first block, hover over the section until a small green rectangle appears (See first image below). If you click the pencil icon, a sidebar will appear on the left that will allow you to edit the text of the block (See second image below). '
             },
             {
                 type: 'image',
@@ -517,7 +572,7 @@ const wordpressTutorials = [
             },
             {
                 type: 'text',
-                content: 'To esaily add a new card in the column you just added, initially right click on the existing card on the right and select copy on the meny that appears (see first image below). Now you right click on the mepty column on the right and selct paste (see second image bleow). After completing these steps, you can edit these cards by repeating the same steps you took at the beginning of this tutorial. Save the changes by clicking on the check symbol on the bottom left corner of the page. '
+                content: 'To esaily add a new card in the column you just added, initially right click on the existing card on the right and select copy on the menu that appears (see first image below). Now you right click on the empty column on the right and select paste (see second image bleow). After completing these steps, you can edit these cards by repeating the same steps you took at the beginning of this tutorial. Save the changes by clicking on the check symbol on the bottom left corner of the page. '
             },
             {
                 type: 'image',
@@ -526,6 +581,134 @@ const wordpressTutorials = [
             {
                 type: 'image',
                 src: '/images/wordpress/update-about-us/paste-card-to-the-right-column.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Previous Versions (If you do not need to reverse changes, skip this section)'
+            },
+            {
+                type: 'text',
+                content: 'In the event you make a mistake and save it, do not worry. Go back to the Dashboard, click on "Pages" on the left sidebar, and scroll down to the Our Patrons page. Hover over it and click "Edit". Your screen should look like this: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-patrons/edit-page-screen.png'
+            },
+            {
+                type: 'text',
+                content: 'Navigate to the right side of the screen where it says "Publish" with a button "Preview Changes", and click "Browse" next to where it says "Revisions". Your screen should look like this: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-patrons/revisions.png'
+            },
+            {
+                type: 'text',
+                content: 'Clicking "Previous" will revert the website to your LAST SAVE POINT. If you saved three times, and you want to discard all of those changes, press "Previous" three times. Again, do this only if you need to reverse changes. Click "Previous" on the left side of the screen as many times as necessary, then "Restore This Revision" to revert the changes to a previous version.'
+            },
+        ]
+    },
+    { label: 'Update Management Team',
+        sections: [
+            {
+                type: 'header',
+                content: 'How to Update Management Team page'
+            },
+            {
+                type: 'text',
+                content: 'Log in to the WordPress dashboard, and click to "Pages" on the left sidebar.'
+            },
+            {
+                type: 'text',
+                content: 'Scroll until you find the given page, in this case Management. Hover over it and click on "Edit with Visual Composer" that will appear right under it as you can see in the image below:'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-management-team/all-pages.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Cloning a bio card'
+            },
+            {
+                type: 'text',
+                content: 'Once the page is opened, in order to add another bio card to the page, hover over the last bio card until a small green rectangle appears. Click the third option from the left (clone). You will see that the last bio card will be duplicated. See image below for instruction: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-management-team/clone-card.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Editing the newly added bio card'
+            },
+            {
+                type: 'text',
+                content: 'Hover over the newly added bio card (the last one) and click on pencil icon on the green rectangle box that appears (see first image below). On the sidebar that apears in the left, start with editing the name of the new team member. Than edit the bio text. You can edit the short bio which is the text above the "see full bio" writing, and you can edit the full bio which the text below the "see full bio" writng (see second image below). '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-management-team/edit-cloned-card.png'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-management-team/edit-text.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Replacing the image of the newly added bio card'
+            },
+            {
+                type: 'text',
+                content: 'After you finish editing the bio text, click once the image on the left sidebar. Once the image is selected, click on the "Add Media" button on the top left corner of the sidebar (see first image below). A window will open that will allow you to select an image from the media gallery (see second image below). Select the image and click on the "Insert into page" button on the bottom right corner of the page.'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-management-team/replace-image.png'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-management-team/insert-new-image.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Format the newly added image to fit into the bio card'
+            },
+            {
+                type: 'text',
+                content: 'When you upload the new image, you will notice that the image will not fit perfectly into the bio card. To fix this, select the image you just added on the left sidebar and click on the pencil symbol that appears right above it (see first image below). This will open a new page (see second image below). On the new page look for the box titled Image CSS Class. On the box type "board-member-img vc_single_image-img" and then click on update on the bottom right corner of the page. This completes the bio card editing. Save the changes by clicking on the check symbol on the bottom left corner of the page.'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-management-team/edit-new-image.png'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-management-team/apply-class.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Previous Versions (If you do not need to reverse changes, skip this section)'
+            },
+            {
+                type: 'text',
+                content: 'In the event you make a mistake and save it, do not worry. Go back to the Dashboard, click on "Pages" on the left sidebar, and scroll down to the Management Team page. Hover over it and click "Edit". Your screen should look like this: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-patrons/edit-page-screen.png'
+            },
+            {
+                type: 'text',
+                content: 'Navigate to the right side of the screen where it says "Publish" with a button "Preview Changes", and click "Browse" next to where it says "Revisions". Your screen should look like this: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-patrons/revisions.png'
+            },
+            {
+                type: 'text',
+                content: 'Clicking "Previous" will revert the website to your LAST SAVE POINT. If you saved three times, and you want to discard all of those changes, press "Previous" three times. Again, do this only if you need to reverse changes. Click "Previous" on the left side of the screen as many times as necessary, then "Restore This Revision" to revert the changes to a previous version.'
             },
             
         ]

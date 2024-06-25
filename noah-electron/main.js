@@ -1,19 +1,25 @@
 // Modules to control application life and create native browser window
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, screen } = require('electron')
 const path = require('node:path')
 
 function createWindow () {
+  // First, get the screen's size
+  const { width, height } = screen.getPrimaryDisplay().workAreaSize
+
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     title: "Noah - Ark Foundation",
-    width: 1024,
-    height: 768,
+    width: width,
+    height: height,
     autoHideMenuBar: true,
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,
     }
   })
+
+  // Maximize window to fill the screen
+  mainWindow.maximize();
 
   // Load the React app based on the environment
   const startUrl = 'http://localhost:3000' || `file://${path.join(__dirname, '../build/index.html')}`;

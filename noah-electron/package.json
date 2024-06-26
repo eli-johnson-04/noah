@@ -1,7 +1,7 @@
 {
   "name": "Noah",
   "author": "Ark Foundation Intern Team",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -62,6 +62,9 @@
     "src/**/*",
     "main.js"
   ],
+  "win": {
+    "icon": "src/ark-icon.ico"
+  },
     "publish": {
     "provider": "github",
     "owner": "eli-johnson-04",

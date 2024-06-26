@@ -830,6 +830,118 @@ const wordpressTutorials = [
            
         ]
     },
+    { label: 'Add Publication',
+        sections: [
+            {
+                type: 'header',
+                content: ''
+            },
+            {
+                type: 'text',
+                content: ''
+            },
+            {
+                type: 'subheader',
+                content: ''
+            },
+            {
+                type: 'text',
+                content: ''
+            },
+            {
+                type: 'subheader',
+                content: ''
+            },
+            {
+                type: 'text',
+                content: ''
+            }
+        ]
+    },
+    { label: 'Share a Newsletter',
+        sections: [
+            {
+                type: 'header',
+                content: ''
+            },
+            {
+                type: 'text',
+                content: ''
+            },
+            {
+                type: 'subheader',
+                content: ''
+            },
+            {
+                type: 'text',
+                content: ''
+            },
+            {
+                type: 'subheader',
+                content: ''
+            },
+            {
+                type: 'text',
+                content: ''
+            }
+        ]
+    },
+    { label: 'Homepage: Slider',
+        sections: [
+            {
+                type: 'header',
+                content: ''
+            },
+            {
+                type: 'text',
+                content: ''
+            },
+            {
+                type: 'subheader',
+                content: ''
+            },
+            {
+                type: 'text',
+                content: ''
+            },
+            {
+                type: 'subheader',
+                content: ''
+            },
+            {
+                type: 'text',
+                content: ''
+            }
+        ]
+    },
+    { label: 'Homepage: Content',
+        sections: [
+            {
+                type: 'header',
+                content: ''
+            },
+            {
+                type: 'text',
+                content: ''
+            },
+            {
+                type: 'subheader',
+                content: ''
+            },
+            {
+                type: 'text',
+                content: ''
+            },
+            {
+                type: 'subheader',
+                content: ''
+            },
+            {
+                type: 'text',
+                content: ''
+            }
+        ]
+    },
 ];
 
 export default wordpressTutorials;

@@ -1,7 +1,7 @@
 {
   "name": "Noah",
   "author": "Ark Foundation Intern Team",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -15,6 +15,7 @@
     "wait-on": "^7.2.0",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "./",
   "main": "main.js",
   "scripts": {
     "start": "react-scripts start",
@@ -23,7 +24,7 @@
     "eject": "react-scripts eject",
     "package": "electron-builder build --win -c.extraMetadata.main=main.js --publish never",
     "publish": "electron-builder build --win -c.extraMetadata.main=main.js --publish always",
-    "electron-react": "concurrently \"npm start\" \"wait-on http://localhost:3000 && electron .\""
+    "electron-react": "set ELECTRON_START_URL=http://localhost:3000 && concurrently \"npm start\" \"wait-on http://localhost:3000 && electron .\""
   },
   "eslintConfig": {
     "extends": [
@@ -60,8 +61,12 @@
     "package.json",
     "public/**/*",
     "src/**/*",
-    "main.js"
+    "main.js",
+    "build/**/*"
   ],
+  "win": {
+    "icon": "src/ark-icon.ico"
+  },
     "publish": {
     "provider": "github",
     "owner": "eli-johnson-04",

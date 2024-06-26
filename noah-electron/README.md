@@ -23,7 +23,9 @@ After exiting out of the Electron window, be sure to press Ctrl+C to exit the de
 ### Packaging
 Navigate to the project root and run the terminal as administrator. If using PowerShell, use the command ```$env:GITHUB_ACCESS_TOKEN="your_token_here"```. If using Command Prompt, use ```set GITHUB_ACCESS_TOKEN=your_token_here```.   
 
+First build the app:       
+```npm run build```     
 To package:   
-```npm run package```
-To publish:   
-```npm run publish```
+```npm run package```     
+To publish:      
+```npm run publish```     

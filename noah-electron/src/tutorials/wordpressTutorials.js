@@ -713,6 +713,123 @@ const wordpressTutorials = [
             
         ]
     },
+    { label: 'Update Our History',
+        sections: [
+            {
+                type: 'header',
+                content: 'How to Update the Our History Page'
+            },
+            {
+                type: 'text',
+                content: 'Log in to the WordPress dashboard, and navigate to "Appearance" on the left sidebar. Hover over it, and click "Editor". This will open Gutenberg, the native WordPress page editor. Once the editor shows up, click "Pages", then scroll down and click on "Our History", then the pencil icon to the right of the name of the page.'
+            },
+            {
+                type: 'subheading',
+                content: 'Edit the first three blocks'
+            },
+            {
+                type: 'text',
+                content: 'This page consists of three initial blocks (a quote, some statistics, and a header introducing the 25-year activities of The Ark Foundation) followed by five media accordions. Each accordion contains a paragraph describing the activities during a 5-year span, along with related media (images and/or videos) for those activities. To edit on of the first three blocks, simply click on the section you wish to modify (e.g., the quote) and enter the desired text. See image below: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-history/first-three-blocks.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Edit a Media Accordion'
+            },
+            {
+                type: 'text',
+                content: 'In order to edit one of the Media Accordions, start by clicking on it. Then, click the three descending lines on the top left of the screen, next to the arrows, to show the webpage tree. The webpage tree is a hieracrchical structure that shows how elements are nested and organized. If an element is underneath another AND slightly to the right, it is contained by the one above it (see image below). If you need to edit the paragraph with the activity description, click once on the paragraph section and start editing the text. '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-history/tree-view.png'
+            },
+            {
+                type: 'text',
+                content: 'Now, you can decide if you would like to use a Photo Gallery, a Video Gallery, or both. If you do not want one of them, right click the corresponding "Photo Accordion" or "Video Accordion" on the tree view on the left and click "Delete". See image below:'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-history/delete-photo-gallery.png'
+            },
+            {
+                type: 'text',
+                content: 'If you want to add images to the gallery, click on "Photos" on the screen and then click on Media Library (see first image below). A new page will open that will allow you to select the desired number of images to add to the gallery. After selecting the desired images, click on "Create a new gallery" on the bottom right of the page (see second image below) .'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-history/add-new-gallery.png'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-history/insert-new.png'
+            },
+            {
+                type: 'text',
+                content: 'If you want to embed a youtube video to the Videos gallery section, start by clicking "Videos" on the screen. If you have more than one video to embed, right click on "Video Container" on the tree view on the left, and then select duplicate. You can repeat this step based on the number of videos you want to embed. See image below: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-history/duplicate-video-container.png'
+            },
+            {
+                type: 'text',
+                content: 'After adding the desired number of video containers, simply copy and paste the video URLs on the apposite boxes and click on the Embed button on the right. See image below:'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-history/embed-url.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Add and edit a new 5-year timeline media accordion'
+            },
+            {
+                type: 'text',
+                content: 'In order to add a new 5-year timeline media accordion, select the last media accordion on the tree view on the left. Click the three dots on the right and select Duplicate (see image below). A new media accordion will be added at the bottom of the page. To edit it follow the previous steps you took to edit the existing media accordions.'
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/update-our-history/duplicate-media-accordion.png'
+            },
+            {
+                type: 'subheading',
+                content: 'Publishing the Page'
+            },
+            {
+                type: 'text',
+                content: 'Congrats! You have successfully updated the "Our History" page. Click "Save" at the top right of the screen. Confirm the save if a pop-up shows up, and wait for the changes to save. It is safe to exit the page, but you can return to the dashboard by clicking The Ark logo in the top left of the screen once to return to Gutenberg, then again to return to the dashboard.'
+            },
+            {
+                type: 'subheading',
+                content: 'Previous Versions (If you do not need to reverse changes, skip this section)'
+            },
+            {
+                type: 'text',
+                content: 'In the event you make a mistake and save it, do not worry. Click on "Pages" on the left sidebar, and scroll down to the Media page. Hover over it and click "Edit". Your screen should look like this: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/add-media-gallery/edit-media-not-gutenberg.png'
+            },
+            {
+                type: 'text',
+                content: 'Navigate to the right side of the screen where it says "Publish" with a button "Preview Changes", and click "Browse" next to where it says "Revisions". Your screen should look like this: '
+            },
+            {
+                type: 'image',
+                src: '/images/wordpress/add-media-gallery/revisions.png'
+            },
+            {
+                type: 'text',
+                content: 'Clicking "Previous" will revert the website to your LAST SAVE POINT. If you saved three times, and you want to discard all of those changes, press "Previous" three times. Again, do this only if you need to reverse changes. Click "Previous" on the left side of the screen as many times as necessary, then "Restore This Revision" to revert the changes to a previous version.'
+            },
+           
+        ]
+    },
 ];
 
 export default wordpressTutorials;

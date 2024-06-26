@@ -22,7 +22,7 @@ function createWindow () {
   mainWindow.maximize();
 
   // Load the React app based on the environment
-  const startUrl = 'http://localhost:3000' || `file://${path.join(__dirname, '../build/index.html')}`;
+  const startUrl = 'http://localhost:3000' || `file://${path.join(__dirname, '../index.html')}`;
   mainWindow.loadURL(startUrl);
 
   // Prevents the page title from updating to something other than the set title

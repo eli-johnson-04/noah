@@ -58,13 +58,10 @@
   "files": [
     "dist/**/*",
     "package.json",
-    "public/images/**/*",
+    "public/**/*",
     "src/**/*",
     "main.js"
-    ],
-    "win": {
-      "icon": "build/icon.ico"
-    },
+  ],
     "publish": {
     "provider": "github",
     "owner": "eli-johnson-04",

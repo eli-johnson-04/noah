@@ -10,7 +10,7 @@ const TutorialCard = ({ color, label, sections }) => {
     };
 
     return (
-        <div>
+        <div className="flex flex-wrap justify-center gap-4 p-4">
             {/* Define appearance from App.css display behavior of a tutorial card */}
             <button className="tutorialCard text-black font-kanit font-medium text-16" style={{ backgroundColor: color }} onClick={handleClick}>
                 <span>{label}</span>
